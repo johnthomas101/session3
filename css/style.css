@@ -1,3 +1,7 @@
-.parent > .child1{
-    color: red;
+.divStyle {
+    color: white;
+    background-color: red;
+    padding: 100px;
+    margin: 100px;
+    border: 20px solid black;
 }
