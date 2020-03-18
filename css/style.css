@@ -1,24 +1,17 @@
-.divStyle {
+.parent {
     background-color: red;
-    color: white;
-    width: 500px;
-    height: 200px;
+    width: 400px;
+    padding: 10px;
 }
 
-.divStyle1 {
-    background-color: red;
-    color: white;
+.childH {
+    background-color: white;
+    color: red;
+    height: 1000px;
 }
 
-.spanStyle {
-    background-color: red;
-    color: white;
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-}
-
-
-.parent{
-    width: 500px;
+.childP{
+    position: inherit;
+    top: 0px;
+    background-color: blue;
 }
