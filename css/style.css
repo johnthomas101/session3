@@ -1,17 +1,11 @@
 .parent {
-    background-color: red;
-    width: 400px;
-    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-.childH {
-    background-color: white;
-    color: red;
-    height: 1000px;
-}
-
-.childP{
-    position: inherit;
-    top: 0px;
-    background-color: blue;
+.child{
+    width: 300px;
 }
